@@ -17,8 +17,8 @@ const Main = () => {
         <h1>RICK AND MORTY</h1>
         <CharactersList list={data.results} />
         <ButtonDiv>
-        <button onClick={() => setPage(page-1)} disabled = {page === 1} >Previous</button>
-        <button onClick={() => setPage(page+1)} disabled={page ===42}>Next</button>
+          <button onClick={() => setPage(page-1)} disabled = {page === 1} >Previous</button>
+          <button onClick={() => setPage(page + 1)} disabled={page === 42}>Next</button>
         </ButtonDiv>
     </MainComponent>
   )
